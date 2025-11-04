@@ -1,13 +1,15 @@
 package hot100;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class Issue146_LRUCache {
     public static void main(String[] args) {
 
     }
 
-    class LRUCache extends LinkedHashMap<Integer, Integer>{
+    class LRUCache extends LinkedHashMap<Integer, Integer> {
         private int capacity;
 
         public LRUCache(int capacity) {
