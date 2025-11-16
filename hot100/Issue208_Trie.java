@@ -7,9 +7,9 @@ public class Issue208_Trie {
     }
     HashSet<String> set = new HashSet<>();
     HashSet<String> pre= new HashSet<>();
-    public Trie() {
-
-    }
+//    public Trie() {
+//
+//    }
 
     public void insert(String word) {
         set.add(word);
